@@ -49,8 +49,19 @@ letter-spacing: 0.5;
 
 /*article*/
 
+.regles p{
+font-size: 2.25rem;
+}
+
 article{
     font-family: "Quicksand", sans-serif;
+}
+
+/*info*/
+
+.info p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
 }
 
 /*footer*/
