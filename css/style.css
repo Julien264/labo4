@@ -22,14 +22,23 @@ box-sizing: border-box;
 /*--------------------------------------
 COMPONENTS
 ---------------------------------------*/
+
+/*header*/
+
 header{
     background-color: #34495E;
     font-size: 6rem;
-    font-family: "Quicksand", sans-serif;
-    justify-content: center;
+    font-family: "Roboto", sans-serif;
     color: #ffffff;
 }
 
+/*article*/
+
+article{
+    font-family: "Quicksand", sans-serif;
+}
+
+/*footer*/
 
 footer{
     background-color: #2980B9;
