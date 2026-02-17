@@ -25,6 +25,13 @@ h1{
     letter-spacing: 0.36em;
 }
 
+h2{
+font-size: 3rem;
+font-family: "Lato", sans-serif;
+font-weight: 100;
+letter-spacing: 0.5;
+}
+
 
 
 /*--------------------------------------
@@ -40,11 +47,9 @@ header{
 
 /*slogan*/
 
-.slogan p{
-font-size: 3rem;
-font-family: "Lato", sans-serif;
-font-weight: 100;
-letter-spacing: 0.5;
+.slogan{
+    justify-content: right;
+    justify-items: center;
 }
 
 /*article*/
@@ -57,11 +62,19 @@ article{
     font-family: "Quicksand", sans-serif;
 }
 
+.espace{
+    background-color: #bdc3c7;
+}
+
 /*info*/
 
 .info p{
     font-family: "Roboto", sans-serif;
     font-size: 1.25rem;
+}
+
+.info span{
+    font-weight: 700;
 }
 
 /*footer*/
