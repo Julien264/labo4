@@ -43,6 +43,7 @@ COMPONENTS
 header{
     background-color: #34495E;
     justify-items: center;
+    padding: 43px 175px 44px 165px;
 }
 
 /*slogan*/
@@ -81,4 +82,9 @@ article{
 
 footer{
     background-color: #2980B9;
+}
+
+.footer p{
+    font-size: 1.25rem;
+    font-weight: 700;
 }
