@@ -50,24 +50,58 @@ header{
 
 .slogan{
     justify-content: right;
-    justify-items: center;
+    justify-items: right;
 }
 
 /*article*/
 
 .regles p{
 font-size: 2.25rem;
+font-family: "Quicksand", sans-serif;
+line-height: 60px;
+}
+
+.image{
+    font-size: 30px;
+    font-weight: 700;
+    color: #d35400;
+    border-color: 10px #d35400;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    align-content: center;
+    
 }
 
 article{
-    font-family: "Quicksand", sans-serif;
+    align-items: center;
 }
 
-.espace{
-    background-color: #bdc3c7;
+
+article:hover{
+    background-color: #BDC3C7;
+}
+
+.gauche{
+    display: flex;
+    justify-content: center;
+    gap: 67px;
+}
+
+.droite{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 /*info*/
+
+.info{
+    display: flex;
+}
 
 .info p{
     font-family: "Roboto", sans-serif;
