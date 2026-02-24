@@ -101,8 +101,10 @@ article:hover{
 
 /*info*/
 
-.info{
-    display: flex;
+.info .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
     
 }
 
