@@ -130,3 +130,16 @@ footer{
     font-size: 1.25rem;
     font-weight: 800;
 }
+
+.material-symbols-outlined{
+font-size: 2.3125rem;
+width: 3.125rem;
+height: 3.125rem;
+background-color: #ffffff;
+border-color: 0.1875rem #BDC3C7;
+border-radius: 50%;
+text-align: center;
+border-style: solid;
+align-content: center;
+border-width: 0.1875rem;
+}
