@@ -23,6 +23,7 @@ h1{
     color: #ffffff;
     font-weight: 900;
     letter-spacing: 0.36em;
+    line-height: 60px;
 }
 
 h2{
@@ -78,6 +79,7 @@ line-height: 60px;
 
 article{
     align-items: center;
+    margin: 39px;
 }
 
 
@@ -101,6 +103,7 @@ article:hover{
 
 .info{
     display: flex;
+    
 }
 
 .info p{
@@ -116,9 +119,11 @@ article:hover{
 
 footer{
     background-color: #2980B9;
+    padding: 39px;
 }
 
 .footer p{
+    font-family: "Roboto", sans-serif;
     font-size: 1.25rem;
-    font-weight: 700;
+    font-weight: 800;
 }
